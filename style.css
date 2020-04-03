@@ -1,4 +1,33 @@
- h1 {
-     color:blue;
- }
- 
+ h1,h2,h3,h4 {
+        font-family: Geneva;
+       }
+h1 {
+    font-size: 32px;
+}
+.italic {
+font-style: italic; 
+}
+
+table { 
+    border: 1px double black; /* Рамка вокруг таблицы */
+    border-collapse: collapse; /* Отображать только одинарные линии */
+   }
+
+   th { 
+    padding: 1px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+   }
+
+   td { 
+    padding: 1px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+   }
+
+body {
+     margin: 15%; /* Отступы вокруг элемента */
+     background: #fd0; /* Цвет фона */
+    } 
+.rightimg  {
+        float: right; /* Выравнивание по правому краю  */ 
+        margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+       }
